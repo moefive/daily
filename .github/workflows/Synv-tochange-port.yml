@@ -23,7 +23,7 @@ jobs:
         git remote add upstream https://github.com/pexcn/daily.git
         git fetch upstream
         git checkout gh-pages
-        git merge upstream/gh-pages --allow-unrelated-histories
+        git merge upstream/gh-pages -X theirs --allow-unrelated-histories
 
     - name: Run duplicate_whitelist.py
       run: |
