@@ -2,8 +2,8 @@ name: Sync Fork and Run Script
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # UTC 时间 20 点，对应东八区时间 4 点
-    - cron: '0 8 * * *'   # UTC 时间 8 点，对应东八区时间 16 点
+    - cron: '0 22 * * *'  # UTC 时间 20 点，对应东八区时间 4 点
+    # - cron: '0 8 * * *'   # UTC 时间 8 点，对应东八区时间 16 点
   workflow_dispatch:
 jobs:
   sync-fork:
@@ -33,10 +33,20 @@ jobs:
     - name: Run duplicate_whitelist.py
       run: |
         python3 duplicate_whitelist.py
-
-    - name: Commit and push changes
+    - name: Check for changes
+      id: check_changes
       run: |
         git add .
+        if git diff-index --quiet HEAD --; then
+          echo "No changes detected"
+          echo "::set-output name=changes_detected::false"
+        else
+          echo "Changes detected"
+          echo "::set-output name=changes_detected::true"
+        fi
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes_detected == 'true'
+      run: |
         git commit -m "Sync with upstream and run duplicate_whitelist.py"
         git push origin gh-pages
       env:
