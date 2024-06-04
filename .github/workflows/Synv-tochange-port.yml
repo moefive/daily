@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 20 * * *'  # UTC 时间 20 点，对应东八区时间 4 点
     - cron: '0 8 * * *'   # UTC 时间 8 点，对应东八区时间 16 点
-
+  workflow_dispatch:
 jobs:
   sync-fork:
     runs-on: ubuntu-latest
