@@ -45,7 +45,7 @@ jobs:
           echo "changes_detected=true" >> $GITHUB_ENV
         fi
     - name: Commit and push changes
-      if: steps.check_changes.outputs.changes_detected == 'true'
+      if: GITHUB_ENV.changes_detected == 'true'
       run: |
         git commit -m "Sync with upstream and run duplicate_whitelist.py"
         git push origin gh-pages
