@@ -1,5 +1,5 @@
 //
-// Update: 2026-02-18 02:56:27
+// Update: 2026-02-23 02:33:57
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -21,6 +21,7 @@ const gfwlist_domains = {
   "www.msn.com": 1,
   "instagram.com": 1,
   "googlevideo.com": 1,
+  "gvt1.com": 1,
   "netflix.net": 1,
   "whatsapp.net": 1,
   "ggpht.com": 1,
@@ -816,6 +817,7 @@ const gfwlist_domains = {
   "froth.zone": 1,
   "eksisozluk.com": 1,
   "typepad.com": 1,
+  "uniswap.org": 1,
   "annas-archive.li": 1,
   "wikimapia.org": 1,
   "bitchute.com": 1,
@@ -963,6 +965,7 @@ const gfwlist_domains = {
   "japantimes.co.jp": 1,
   "stc.com.sa": 1,
   "abplive.com": 1,
+  "meee.com.tw": 1,
   "tunnelblick.net": 1,
   "foreignaffairs.com": 1,
   "lihkg.com": 1,
@@ -1364,6 +1367,7 @@ const gfwlist_domains = {
   "betvictor.com": 1,
   "chinadigitaltimes.net": 1,
   "gettyimages.de": 1,
+  "opencritic.com": 1,
   "play-asia.com": 1,
   "pinterest.pt": 1,
   "cici.com": 1,
@@ -1973,7 +1977,6 @@ const gfwlist_domains = {
   "googleplus.com": 1,
   "googlescholar.com": 1,
   "gstatic.com": 1,
-  "gvt1.com]": 1,
   "gwtproject.org": 1,
   "html5rocks.com": 1,
   "iam.soy": 1,
@@ -2100,6 +2103,7 @@ const gfwlist_domains = {
   "99cn.info": 1,
   "9bis.com": 1,
   "9bis.net": 1,
+  "akile.io": 1,
   "anuneko.com": 1,
   "ai.dev": 1,
   "aoxvpn.com": 1,
@@ -2309,6 +2313,7 @@ const gfwlist_domains = {
   "bvpn.com": 1,
   "bwh1.net": 1,
   "bypasscensorship.org": 1,
+  "www.clashverge.dev": 1,
   "clementine-player.org": 1,
   "cchostvps.xyz": 1,
   "covenantswatch.org.tw": 1,
@@ -3132,6 +3137,7 @@ const gfwlist_domains = {
   "lyfhk.net": 1,
   "lzjscript.com": 1,
   "lzmtnews.org": 1,
+  "mosavi.io": 1,
   "mjj.rip": 1,
   "news.mt.co.kr": 1,
   "mergersandinquisitions.com": 1,
@@ -3242,6 +3248,7 @@ const gfwlist_domains = {
   "mymoe.moe": 1,
   "myparagliding.com": 1,
   "mypopescu.com": 1,
+  "assets.nxtrace.org": 1,
   "bbs.naixi.net": 1,
   "netlify.app": 1,
   "nightswatch.top": 1,
@@ -3683,6 +3690,7 @@ const gfwlist_domains = {
   "sydneytoday.com": 1,
   "sylfoundation.org": 1,
   "syncback.com": 1,
+  "tor.eff.org": 1,
   "tails.net": 1,
   "terobox.com": 1,
   "talkatone.com": 1,

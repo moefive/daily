@@ -11,6 +11,7 @@ yahoo.com
 www.msn.com
 instagram.com
 googlevideo.com
+gvt1.com
 netflix.net
 whatsapp.net
 ggpht.com
@@ -806,6 +807,7 @@ superpages.com
 froth.zone
 eksisozluk.com
 typepad.com
+uniswap.org
 annas-archive.li
 wikimapia.org
 bitchute.com
@@ -953,6 +955,7 @@ heritage.org
 japantimes.co.jp
 stc.com.sa
 abplive.com
+meee.com.tw
 tunnelblick.net
 foreignaffairs.com
 lihkg.com
@@ -1354,6 +1357,7 @@ westca.com
 betvictor.com
 chinadigitaltimes.net
 gettyimages.de
+opencritic.com
 play-asia.com
 pinterest.pt
 cici.com
@@ -1963,7 +1967,6 @@ googleplay.com
 googleplus.com
 googlescholar.com
 gstatic.com
-gvt1.com]
 gwtproject.org
 html5rocks.com
 iam.soy
@@ -2090,6 +2093,7 @@ zhao.1984.city
 99cn.info
 9bis.com
 9bis.net
+akile.io
 anuneko.com
 ai.dev
 aoxvpn.com
@@ -2299,6 +2303,7 @@ buzzorange.com
 bvpn.com
 bwh1.net
 bypasscensorship.org
+www.clashverge.dev
 clementine-player.org
 cchostvps.xyz
 covenantswatch.org.tw
@@ -3122,6 +3127,7 @@ lvhai.org
 lyfhk.net
 lzjscript.com
 lzmtnews.org
+mosavi.io
 mjj.rip
 news.mt.co.kr
 mergersandinquisitions.com
@@ -3232,6 +3238,7 @@ myiphide.com
 mymoe.moe
 myparagliding.com
 mypopescu.com
+assets.nxtrace.org
 bbs.naixi.net
 netlify.app
 nightswatch.top
@@ -3673,6 +3680,7 @@ switchvpn.net
 sydneytoday.com
 sylfoundation.org
 syncback.com
+tor.eff.org
 tails.net
 terobox.com
 talkatone.com
